@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+:root {
+  font-size: 62.5%;
+  background-color: #000000;
+  color: #ffffff;
+}
+body {
+  position: relative;
+}
+.cursor {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 1;
+  width: 5rem;
+  height: 5rem;
+  border: #ffffff 0.5rem solid;
+  mix-blend-mode: difference;
+  z-index: 102;
+}
+@import "./hero.scss";
+@import "./nav.scss";
+@import "./dive.scss";
+@import "./about.scss";
+@import "./try.scss";
+@import "./footer.scss";
+@media (max-width: 1100px) {
+  .cursor {
+    display: none;
+  }
+}
