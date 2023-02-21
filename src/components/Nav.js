@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
       <div className="logo">
         <img src={Logo} alt="" />
-        <a href="">VRROOMZ</a>
+        <a href="#/">VRROOMZ</a>
       </div>
       <ul>
         <li>

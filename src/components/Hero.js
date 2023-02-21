@@ -44,7 +44,7 @@ const Hero = () => {
         <motion.div className="learn-more" variants={fade}>
           <p>Welcome to he diversity of awesome virtual worlds</p>
           <div className="show">
-            <a href="">Show me how</a>
+            <a href="#/">Show me how</a>
             <img src={arrow} alt="" />
           </div>
         </motion.div>
