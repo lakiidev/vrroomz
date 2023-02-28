@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import "./style/app.scss";
+
 function App() {
   return (
     <div className="App">
