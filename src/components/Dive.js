@@ -53,9 +53,17 @@ const Dive = () => {
           />
         </div>
       </div>
-      <motion.div className="img" variants={expandAnim}>
-        <img src={diveTogether} alt="" />
-      </motion.div>
+      <div className="img">
+        <motion.img
+          src={diveTogether}
+          variants={expandAnim}
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ delay: 2.5 }}
+          initial="hidden"
+          alt=""
+        />
+      </div>
     </section>
   );
 };

@@ -148,7 +148,6 @@
                   color: #411b4f;
                   transition: all 0.3s ease-in-out;
                 }
-                cursor: pointer;
                 &::after {
                   background: linear-gradient(
                     133.92deg,
@@ -171,7 +170,6 @@
               );
             }
             &:hover {
-              cursor: not-allowed;
               abbr {
                 color: #5f5f5f;
               }
@@ -188,7 +186,7 @@
             abbr {
               position: relative;
               z-index: 2;
-              color: #411b4f;
+              color: #411b4f !important;
               transition: all 0.3s ease-in-out;
             }
             &::after {
