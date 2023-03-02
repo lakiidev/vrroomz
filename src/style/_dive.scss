@@ -68,6 +68,7 @@
       width: 70%;
       z-index: 100;
       overflow: hidden;
+
       h2 {
         font-size: 10rem;
         color: #fff;
@@ -123,10 +124,12 @@
 @media (max-width: 1024px) {
   .dive-info {
     .container {
-      h2 {
+      .dive-title {
         padding-top: 5rem;
-        width: 90%;
-        font-size: 5rem !important;
+        h2 {
+          width: 90%;
+          font-size: 5rem !important;
+        }
       }
       p {
         font-size: 220%;
@@ -138,6 +141,7 @@
 @media (max-width: 768px) {
   .dive-selection {
     flex-direction: column;
+
     .dive-info {
       flex: 1;
       min-height: 50vh;
@@ -145,6 +149,8 @@
       .container {
         height: 100%;
         text-align: center;
+        align-items: center;
+
         h2 {
           font-size: 4rem !important;
         }

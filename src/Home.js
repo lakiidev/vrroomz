@@ -8,6 +8,7 @@ import Cursor from "./Cursor";
 import LocomotiveScroll from "locomotive-scroll";
 const Home = () => {
   const containerRef = useRef(null);
+
   useEffect(() => {
     const scroll = new LocomotiveScroll({
       el: containerRef.current,
@@ -26,8 +27,17 @@ const Home = () => {
     window.addEventListener("load", () => {
       scroll.update();
     });
-    return () => scroll.destroy();
+    document.addEventListener("DOMContentLoaded", function () {
+      function ScrollUpdateDelay() {
+        setTimeout(function () {
+          scroll.update();
+        }, 500);
+      }
+
+      ScrollUpdateDelay();
+    });
   }, []);
+
   return (
     <>
       <div data-scroll-container ref={containerRef}>
