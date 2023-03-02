@@ -43,7 +43,7 @@ const Try = () => {
               formatShortWeekday={formatShortWeekday}
               className="calendar"
             />
-            <a href="" className="try-now">
+            <a href="#/" className="try-now">
               Try now
             </a>
           </div>
