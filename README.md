@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Vrroomz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+Forget pixelated worlds and clunky controls. Vrroomz smashes through the VR barrier, offering a gateway to limitless, curated experiences designed for pure exploration and joy. Imagine soaring through breathtaking landscapes, scaling impossible heights, or unraveling mind-bending puzzles, all from the comfort of your own home. Navigating Vrroomz feels like exploring a dream, so this website provides detailed descriptions, captivating trailers, and user reviews before you embark on your VR adventure so you know exactly what awaits you, without surprises.
 
-## Available Scripts
+## About development
+Building Vrroomz wasn't just about pixels and polygons, it was about crafting a portal to impossible worlds. We needed a platform that could seamlessly translate the magic of VR into an engaging online experience.
+React formed the foundation, its component-based structure mirroring the modularity of VR worlds themselves. This ensured smooth performance and dynamic updates, keeping you immersed in the adventure.
+SCSS wasn't just about styling buttons and menus. It was about weaving a visual tapestry that hinted at the wonders within. Think breathtaking landscapes rendered in vibrant colors, and impossible heights scaled with smooth transitions.
+So, when you browse Vrroomz, you're not just looking at a website, you're peering into a portal. A portal built with code, yes, but also with passion, innovation, and a deep love for exploration.
 
-In the project directory, you can run:
+## Sneak peek
+[image]
 
-### `npm start`
+## Features
+* **Intuitive layout:** Find what you need quickly and easily with a user-friendly design.
+* **Clear information:** Get all the details you need about Vrroomz's services and philosophy in simple language.
+* **Mobile-friendly:** Access your program and community on the go, anytime, anywhere.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built with:
+* ReactJS
+* JavaSrcript
+* SCSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
